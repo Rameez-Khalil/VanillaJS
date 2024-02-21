@@ -1,0 +1,5 @@
+DOM: Document Object Model. 
+    A structured representation of HTML documents, allows JS to manipulate HTML elements. 
+    DOM is automatically created by browser as soon as the page is loaded in the browser.
+    DOM is a complete representation of an HTML document.
+    DOM and its methods are a part of Web API.    

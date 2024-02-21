@@ -1,0 +1,3 @@
+1. Once we have the reference to the node, we can apply methods onto it.
+2. For example, reference.textContent = 'Good To Go'.
+3. For input fields, we use value property to read the value. 

@@ -1,0 +1,20 @@
+Events:
+    1. Changes that happens on the page.
+    2. AddEventListener is a method that lives in EventTarget interface.
+    3. It sets up a function that will be called when an event is delivered to the target.
+
+    We are not calling the function, we are just defining the method and its the JS engine that calls this method.
+    document.querySelector('.check').addEventListener('click', function () {
+    console.log(document.querySelector('.guess').value);
+        });
+
+    4. // Setting up an event.
+        document.querySelector('.check').addEventListener('click', function () {
+        const guessedNumber = document.querySelector('.guess').value;
+        if (!guessedNumber) {
+            document.querySelector('.message').textContent = 'No Number';
+        }
+        });
+
+
+    
